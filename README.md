@@ -15,7 +15,7 @@ const Data = {
     DisplayName: "John Doe",
     DateOfBirth: "2000-04-30T00:00:00.000Z",
   },
-  Permissions: ["create-person", "update-person"],
+  Permissions: ["create-permission", "update-permission"],
 };
 
 RegisterFunction({
