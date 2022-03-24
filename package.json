@@ -1,0 +1,25 @@
+{
+	"name": "contexted-criteria",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"criteria-builder",
+		"object-criteria"
+	],
+	"author": "Oscar Allen Gepulla",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/agentg2007/contexted-criteria.git"
+	},
+	"dependencies": {
+		"lodash": "^4.17.21"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.14.180",
+		"typescript": "^4.6.2"
+	}
+}
