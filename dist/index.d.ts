@@ -4,5 +4,5 @@ declare type FunctionType = {
     Name: string;
     Action(context: any, e: any): boolean;
 };
-export declare const RegisterFuntion: (...funcs: FunctionType[]) => void;
+export declare const RegisterFunction: (...funcs: FunctionType[]) => void;
 export declare const Eval: (context: any, condition: GroupCondition | FieldCondition | FunctionCondition) => boolean;

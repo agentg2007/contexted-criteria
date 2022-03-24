@@ -30,7 +30,7 @@ type FunctionType = {
 }
 const FunctionStore: Dictionary<(context: any, e: any) => boolean> = {};
 const EmptyFunction = (context: any, e: any) => false;
-export const RegisterFuntion = (...funcs: FunctionType[]) => {
+export const RegisterFunction = (...funcs: FunctionType[]) => {
     funcs.forEach(i => FunctionStore[i.Name] = i.Action);
 }
 

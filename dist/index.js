@@ -3,15 +3,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Eval = exports.RegisterFuntion = void 0;
+exports.Eval = exports.RegisterFunction = void 0;
 const lodash_1 = __importDefault(require("lodash"));
 const helpers_1 = require("./helpers");
 const FunctionStore = {};
 const EmptyFunction = (context, e) => false;
-const RegisterFuntion = (...funcs) => {
+const RegisterFunction = (...funcs) => {
     funcs.forEach(i => FunctionStore[i.Name] = i.Action);
 };
-exports.RegisterFuntion = RegisterFuntion;
+exports.RegisterFunction = RegisterFunction;
 const Eval = (context, condition) => {
     var _a;
     if (isGroupCondition(condition)) {
