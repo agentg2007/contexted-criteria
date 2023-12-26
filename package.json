@@ -1,10 +1,11 @@
 {
 	"name": "object-criteria",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.1",
 	"description": "",
 	"main": "./dist/index.js",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"prepublish": "tsc"
 	},
 	"keywords": [
 		"criteria-builder",
@@ -19,7 +20,7 @@
 		"lodash": "^4.17.21"
 	},
 	"devDependencies": {
-		"@types/lodash": "^4.14.180",
-		"typescript": "^4.6.2"
+		"@types/lodash": "^4.14.202",
+		"typescript": "^5.3.3"
 	}
 }
